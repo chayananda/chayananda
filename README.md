@@ -1,43 +1,63 @@
 <div align="center">
 
-# ⚡ Project Titan
+# Chayananda Nagesh
 
-**Build resilient, lightning-fast web applications with zero friction.**
+### **Senior UX & Interaction Designer**
 
-[![GitHub Stars](https://img.shields.io/github/stars/username/project-titan?style=for-the-badge&color=blue)](https://github.com/username/project-titan/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/username/project-titan?style=for-the-badge&color=purple)](https://github.com/username/project-titan/network/members)
-[![Issues](https://img.shields.io/github/issues/username/project-titan?style=for-the-badge&color=orange)](https://github.com/username/project-titan/issues)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+*Bridging human psychology, scalable design systems, and frontend logic to craft resilient enterprise products.*
 
-<br/>
+<p align="center">
+  <a href="https://chayananda.com"><b>🌐 chayananda.com</b></a> •
+  <a href="https://linkedin.com/in/chayananda"><b>💼 LinkedIn</b></a> •
+  <a href="mailto:hello@chayananda.com"><b>✉️ Email</b></a>
+</p>
 
-[Explore Documentation](https://your-docs-site.dev) • [Report Bug](https://github.com/username/project-titan/issues) • [Request Feature](https://github.com/username/project-titan/issues)
+[![Portfolio: chayananda.com](https://img.shields.io/badge/Portfolio-chayananda.com-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chayananda.com)
+[![Figma Specialist](https://img.shields.io/badge/Figma-Design_Systems_&_Tokens-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://chayananda.com)
+[![Interaction Design](https://img.shields.io/badge/Interaction_Design-NID_Alum-blue?style=for-the-badge)](https://chayananda.com)
 
 </div>
 
 ---
 
-## 🧭 Interactive Navigation
+## 🧭 Directory
 
-Jump directly to what you need:
-
-- 🚀 [Quick Start](#-quick-start)
-- ✨ [Core Capabilities](#-core-capabilities)
-- 📊 [Feature Matrix](#-feature-matrix)
-- 📦 [Component Architecture](#-component-architecture)
-- 🛠️ [Configuration Wizard](#-configuration-wizard)
-- 🤝 [Contributing](#-contributing)
+- 👤 [About Me](#-about-me)
+- 📐 [Design System & Workflow Engine](#-design-system--workflow-engine)
+- 🛠️ [Toolkit & Capabilities](#️-toolkit--capabilities)
+- 📂 [Selected Focus Areas](#-selected-focus-areas)
+- 📊 [Architecture & Methodology](#-architecture--methodology)
+- ⚡ [Interactive Highlights](#-interactive-highlights)
+- 📬 [Get In Touch](#-get-in-touch)
 
 ---
 
-## 🚀 Quick Start
+## 👤 About Me
 
-Get up and running in under 60 seconds.
+I design software that simplifies high-stakes complexity. With a foundation in **Computer Science Engineering** followed by a Master’s in **Interaction Design from the National Institute of Design (NID)**, I sit naturally at the intersection of design craft, mental models, and frontend feasibility.
 
-<details open>
-<summary><b>Installation Steps</b></summary>
+- 🔭 **Current Focus:** Enterprise-scale design systems, tokenized design architectures, and complex data-dense web platforms.
+- 🧠 **Design Philosophy:** Systemic consistency over isolated flair, robust accessibility, and zero-ambiguity developer handoffs.
+- 💡 **Curiosity:** Cognitive ergonomics, visual perception, and interactive data visualization.
 
-### 1. Clone the repository
-```bash
-git clone [https://github.com/username/project-titan.git](https://github.com/username/project-titan.git)
-cd project-titan
+---
+
+## 📐 Design System & Workflow Engine
+
+```mermaid
+flowchart LR
+    subgraph Design Foundations
+        A[Tokens: Color, Space, Typography] --> B[Atomic Components]
+        B --> C[Organisms & Patterns]
+    end
+
+    subgraph Governance & Code
+        C --> D[Figma Component Library]
+        D -->|Token Sync / Style Dictionary| E[CSS Variables & TS Types]
+        E --> F[Production Web / Native Apps]
+    end
+
+    subgraph Validation
+        F --> G[Usability Audits & Telemetry]
+        G -->|Feedback Loop| A
+    end
