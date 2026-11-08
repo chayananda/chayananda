@@ -20,33 +20,31 @@ I’m a product designer with 8 years of experience across UX research, interact
 
 <br><br>
 
-<a href="https://chayananda.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-1-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-1-light.svg"><img alt="Horoscene — a Vedic horoscope tool exploring traditional chart visualisation." src="assets/card-1-dark.svg" width="49%"></picture></a>
-<a href="https://chayananda.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-2-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-2-light.svg"><img alt="Designing for AI — research and interaction patterns for AI-powered experiences." src="assets/card-2-dark.svg" width="49%"></picture></a>
-<a href="https://chayananda.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-3-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-3-light.svg"><img alt="Channel analytics — an interactive dashboard for a cultural YouTube channel." src="assets/card-3-dark.svg" width="49%"></picture></a>
-<a href="https://chayananda.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-4-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-4-light.svg"><img alt="Shortcut deck — a MIDI pad controller turned into a custom shortcut deck." src="assets/card-4-dark.svg" width="49%"></picture></a>
-
-<br><br>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/toolkit-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/toolkit-light.svg">
-  <img alt="Toolkit — UX research, interaction design, UI copy, design systems, Figma, Axure RP, Adobe Suite, Cinema 4D, Blender, HTML/CSS/JS, VS Code, GitHub." src="assets/toolkit-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/follow-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/follow-light.svg">
+  <img alt="Follow along — films, books, visual references and videos." src="assets/follow-dark.svg" width="100%">
 </picture>
 
-<br><br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/offcanvas-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/offcanvas-light.svg">
-  <img alt="Off the canvas — Jyotiṣa, Sanskrit, classical Kannada literature, Vedānta, Carnatic music." src="assets/offcanvas-dark.svg" width="100%">
-</picture>
+<a href="https://letterboxd.com/chayananda/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-letterboxd-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/social-letterboxd-light.svg"><img alt="Follow on Letterboxd" src="assets/social-letterboxd-dark.svg" width="49%"></picture></a>
+<a href="https://www.goodreads.com/user/show/17754837-chayananda-nagesh"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-goodreads-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/social-goodreads-light.svg"><img alt="Follow on Goodreads" src="assets/social-goodreads-dark.svg" width="49%"></picture></a>
+<a href="https://www.instagram.com/chayananda.nagesh/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-instagram-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/social-instagram-light.svg"><img alt="Follow on Instagram" src="assets/social-instagram-dark.svg" width="49%"></picture></a>
+<a href="https://www.youtube.com/@chayanandanagesh?sub_confirmation=1"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-youtube-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/social-youtube-light.svg"><img alt="Subscribe on YouTube" src="assets/social-youtube-dark.svg" width="49%"></picture></a>
+<a href="https://in.pinterest.com/chayananda/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-pinterest-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/social-pinterest-light.svg"><img alt="Follow on Pinterest" src="assets/social-pinterest-dark.svg" width="49%"></picture></a>
+<a href="https://www.facebook.com/chayananda.nagesh"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-facebook-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/social-facebook-light.svg"><img alt="Follow on Facebook" src="assets/social-facebook-dark.svg" width="49%"></picture></a>
+<a href="https://wa.me/chayananda"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-whatsapp-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/social-whatsapp-light.svg"><img alt="Message on WhatsApp" src="assets/social-whatsapp-dark.svg" width="49%"></picture></a>
+<a href="https://chayananda.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-portfolio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/social-portfolio-light.svg"><img alt="Visit chayananda.com" src="assets/social-portfolio-dark.svg" width="49%"></picture></a>
 
 <br><br>
 
 <p align="center">
-  <a href="https://chayananda.com"><b>chayananda.com</b></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/chayananda">LinkedIn</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:hello@chayananda.com">hello@chayananda.com</a>
+  <a href="https://letterboxd.com/chayananda/">Letterboxd</a> ·
+  <a href="https://www.goodreads.com/user/show/17754837-chayananda-nagesh">Goodreads</a> ·
+  <a href="https://www.instagram.com/chayananda.nagesh/">Instagram</a> ·
+  <a href="https://www.youtube.com/@chayanandanagesh">YouTube</a> ·
+  <a href="https://in.pinterest.com/chayananda/">Pinterest</a> ·
+  <a href="https://www.facebook.com/chayananda.nagesh">Facebook</a> ·
+  <a href="https://wa.me/chayananda">WhatsApp</a> ·
+  <a href="https://linkedin.com/in/chayananda">LinkedIn</a> ·
+  <a href="mailto:hello@chayananda.com">Email</a>
 </p>

@@ -206,8 +206,54 @@ def offcanvas(c, th):
         b += t(x + cw - 18, 100, lbl, 14, c["text"], 500, "end")
     write("offcanvas", th, svg(W, H, b, "Off the canvas: Jyotiṣa, Sanskrit, classical Kannada, Vedānta, Carnatic music"))
 
+
+# ---------------------------------------------------------------- follow / socials
+ICONS = {  # simple, consistent 24px line icons (stroke-based)
+    "film": '<rect x="3" y="9" width="18" height="12" rx="2"/><path d="M3 9l2.5-5 15.5 0-2.5 5"/><path d="M8.5 4l-2.5 5M14 4l-2.5 5"/>',
+    "book": '<path d="M12 6c-2-1.5-5-2-8-1.5v14c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5v-14c-3-.5-6 0-8 1.5z"/><path d="M12 6v14"/>',
+    "pin": '<path d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.4"/>',
+    "camera": '<path d="M4 8h3.5l1.8-2.5h5.4L16.5 8H20a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13.5" r="3.6"/>',
+    "people": '<circle cx="9" cy="8.5" r="3.2"/><path d="M3 20c.6-3.4 3-5.5 6-5.5s5.4 2.1 6 5.5"/><circle cx="17" cy="9.5" r="2.4"/><path d="M16.5 14.6c2.4.2 4 1.9 4.5 4.6"/>',
+    "chat": '<path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.6-4.2A8.5 8.5 0 1 1 20.5 11.5z"/><path d="M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01" stroke-width="2.4"/>',
+    "play": '<circle cx="12" cy="12" r="9"/><path d="M10 8.6v6.8l5.6-3.4z"/>',
+    "globe": '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.7 3.8 5.7 3.8 9s-1.2 6.3-3.8 9c-2.6-2.7-3.8-5.7-3.8-9S9.4 5.7 12 3z"/>',
+}
+SOCIALS = [  # file, icon, name, handle, cta, tint
+    ("social-letterboxd", "film", "Letterboxd", "Films I watch & rate", "Follow", "#FF8A3D"),
+    ("social-goodreads", "book", "Goodreads", "Books on my shelf", "Follow", "#C9A26B"),
+    ("social-instagram", "camera", "Instagram", "@chayananda.nagesh", "Follow", "#E1306C"),
+    ("social-youtube", "play", "YouTube", "@chayanandanagesh", "Subscribe", "#FF4D4D"),
+    ("social-pinterest", "pin", "Pinterest", "Boards & visual references", "Follow", "#E60023"),
+    ("social-facebook", "people", "Facebook", "chayananda.nagesh", "Follow", "#4F8CFF"),
+    ("social-whatsapp", "chat", "WhatsApp", "Say hello directly", "Message", "#25D366"),
+    ("social-portfolio", "globe", "Portfolio", "chayananda.com", "Visit", None),
+]
+
+def social(c, th, name, icon, title, sub, cta, tint):
+    W, H = 590, 124
+    tint = tint or c["accent"]
+    b = frame(c, W, H, 16, c["panel"])
+    b += f'<rect x="24" y="26" width="72" height="72" rx="16" fill="{tint}" fill-opacity="0.12" stroke="{tint}" stroke-opacity="0.35"/>'
+    b += (f'<g transform="translate(42 44) scale(1.5)" fill="none" stroke="{tint}" stroke-width="1.6" '
+          f'stroke-linecap="round" stroke-linejoin="round">{ICONS[icon]}</g>')
+    b += t(118, 56, title, 21, c["text"], 600, ls=-0.4)
+    b += t(118, 84, sub, 14, c["text2"])
+    bw = 20 + len(cta) * 9.4 + 34
+    bx = W - 24 - bw
+    b += f'<rect x="{bx}" y="44" width="{bw}" height="36" rx="18" fill="{c["text"]}"/>'
+    b += t(bx + 20, 67, cta, 14, c["bg"], 600)
+    b += t(bx + bw - 18, 67, "→", 14, c["bg"], 600, "end")
+    write(name, th, svg(W, H, b, f"{cta} on {title}" if title != "Portfolio" else "Visit chayananda.com"))
+
+def follow_header(c, th):
+    W, H = 1200, 96
+    b = frame(c, W, H, 16, c["bg"])
+    b += t(32, 44, "FOLLOW ALONG", 11, c["accent"], 600, ls=1.6)
+    b += t(32, 72, "Films, books, visual references and the odd video — come say hi.", 17, c["text2"], 400, ls=-0.2)
+    write("follow", th, svg(W, H, b, "Follow along — films, books, visual references and videos"))
+
 for th, c in THEMES.items():
-    hero(c, th); focus(c, th); toolkit(c, th); offcanvas(c, th)
-    for args in CARDS:
-        card(c, th, *args)
-print("ok", sorted(os.listdir(OUT)))
+    hero(c, th); focus(c, th); follow_header(c, th)
+    for args in SOCIALS:
+        social(c, th, *args)
+print("ok")
