@@ -240,9 +240,9 @@ def social(c, th, name, icon, title, sub, cta, tint):
     b += t(118, 84, sub, 14, c["text2"])
     bw = 20 + len(cta) * 9.4 + 34
     bx = W - 24 - bw
-    b += f'<rect x="{bx}" y="44" width="{bw}" height="36" rx="18" fill="{c["text"]}"/>'
-    b += t(bx + 20, 67, cta, 14, c["bg"], 600)
-    b += t(bx + bw - 18, 67, "→", 14, c["bg"], 600, "end")
+    b += f'<rect x="{bx}" y="44" width="{bw}" height="36" rx="18" fill="{c["panel2"]}" stroke="{c["border2"]}"/>'
+    b += t(bx + 20, 67, cta, 14, c["text"], 500)
+    b += t(bx + bw - 18, 67, "→", 14, c["text2"], 500, "end")
     write(name, th, svg(W, H, b, f"{cta} on {title}" if title != "Portfolio" else "Visit chayananda.com"))
 
 def follow_header(c, th):
@@ -253,7 +253,7 @@ def follow_header(c, th):
     write("follow", th, svg(W, H, b, "Follow along — films, books, visual references and videos"))
 
 for th, c in THEMES.items():
-    hero(c, th); focus(c, th); follow_header(c, th)
+    hero(c, th); follow_header(c, th)
     for args in SOCIALS:
         social(c, th, *args)
 print("ok")

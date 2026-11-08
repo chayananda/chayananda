@@ -13,14 +13,6 @@ I’m a product designer with 8 years of experience across UX research, interact
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/focus-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/focus-light.svg">
-  <img alt="Focus: clarity, trust in AI, design systems." src="assets/focus-dark.svg" width="100%">
-</picture>
-
-<br><br>
-
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/follow-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/follow-light.svg">
   <img alt="Follow along — films, books, visual references and videos." src="assets/follow-dark.svg" width="100%">
